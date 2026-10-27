@@ -1,0 +1,6 @@
+customtkinter
+ollama
+pdfplumber
+matplotlib
+# Only needed to remake the fake sample PDF (make_samples.py)
+fpdf2

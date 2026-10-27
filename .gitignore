@@ -1,0 +1,35 @@
+# ----- PRIVATE: never upload real money data -----
+# Real bank statements go in here
+statements/
+# Saved categories, budgets and anything else the app remembers about you
+data/
+categories.json
+budgets.json
+transactions*.json
+# Any statement file outside the samples folder
+*.pdf
+*.csv
+*.xlsx
+*.ofx
+*.qif
+!samples/*.pdf
+!samples/*.csv
+# Screenshots taken with real data (only screenshot.png, made from samples, is allowed)
+*.png
+!screenshot.png
+
+# ----- Build and Python leftovers -----
+build/
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+
+# ----- Kept on this PC only -----
+# Secrets, if any are ever added
+.env
+# Claude's settings and the build log
+.claude/
+DECISIONS.md
